@@ -1,0 +1,27 @@
+!!! 5
+html(lang="en")
+	head
+		!= SocketStream
+		meta(charset="utf-8")
+		title Couchbone Todos
+	body
+		#todoapp
+			header
+				h1 Todos
+				input#new-todo(type="text", placeholder="What needs to be done?")
+
+			section#main
+				input#toggle-all(type="checkbox")
+				label(for="toggle-all") Mark all as complete
+				ul#todo-list
+
+			footer
+				a#clear-completed Clear completed
+				#todo-count
+
+		#instructions Double-click to edit a todo.
+
+		#credits
+			| Full details at
+			br
+			a(href="http://github.com/colinf/couchbone-todos") couchbone-todos github site

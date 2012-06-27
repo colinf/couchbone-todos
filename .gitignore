@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+dump.rdb
+npm-debug.log
+tmp
+public/assets
+*.tgz
+*.sublime-project
+*.sublime-workspace

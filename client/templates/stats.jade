@@ -1,0 +1,6 @@
+- if (done)
+	- var itemsDoneText = (done == 1) ? 'item' : 'items' 
+	a#clear-completed Clear #{done} completed #{itemsDoneText}
+- var itemsRemainingText = (remaining == 1) ? 'item' : 'items' 
+#todo-count
+	b #{remaining} #{itemsRemainingText} left
