@@ -79,7 +79,7 @@ var TodoView = Backbone.View.extend({
   tagName:  "li",
 
   // Cache the template function for a single item.
-  template: ss.tmpl['item'],
+  template: JT['item'],
 
   // The DOM events specific to an item.
   events: {
@@ -147,7 +147,7 @@ var AppView = Backbone.View.extend({
   el: $("#todoapp"),
 
   // Our template for the line of statistics at the bottom of the app.
-  statsTemplate: ss.tmpl['stats'],
+  statsTemplate: JT['stats'],
 
   // Delegated events for creating new items, and clearing completed ones.
   events: {

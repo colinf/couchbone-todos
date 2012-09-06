@@ -1,7 +1,7 @@
 {
   "name": "couchbone-todos",
   "description": "An example application to demonstrate how to use the ss-couchbone Socketstream Request Responder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Colin Fallon <couchbone@colinfallon.com>",
   "repository": {
       "type": "git",
@@ -12,7 +12,7 @@
     "socketstream": "0.3.x",
     "ss-jade": "0.1.x",
     "ss-stylus": "0.1.x",
-    "ss-clientjade": "git://github.com/socketstream/ss-clientjade.git#299bad3dd",
+    "ss-clientjade": "0.0.x",
     "ss-couchbone": "git://github.com/colinf/ss-couchbone.git"
   }
 }

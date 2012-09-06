@@ -41,4 +41,6 @@ And then visit the app at:
 
 	http://localhost:3000
 where you should be able to use the Todos example application in exactly the same way as the original.
-***
+
+### License ###
+  The MIT License - see the file LICENSE.txt within the repository for details.
